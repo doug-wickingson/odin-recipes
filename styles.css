@@ -30,3 +30,7 @@ h1 {
 #soup {
     background-color: rgba(247, 223, 7, 0.4);
 }
+
+.list #cookie {
+    font-style: italic;
+}
