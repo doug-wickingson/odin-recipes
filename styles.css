@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(243, 228, 225, 0.8);
+    font-family: monospace, serif;
+}
+
+h1 {
+    color: purple;
+}
+
+ul {
+    color: green;
+}
+
+a {
+    color: brown;
+}
+
+.recipes {
+    display: block;
+    text-decoration: none;
+}
+
+.description {
+    font-style: italic;
+}
+
+img {
+    border: 2px solid lightsalmon;
+    margin: auto 5px;
+}
