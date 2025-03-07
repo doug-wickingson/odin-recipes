@@ -1,10 +1,13 @@
+
 body {
     background-color: rgba(243, 228, 225, 0.8);
     font-family: monospace, serif;
 }
 
 h1 {
-    color: purple;
+    color: #0b1e8a;
+    text-align: center;
+    padding: 18px 8px 0 8px;
 }
 
 ul {
@@ -18,13 +21,48 @@ a {
 .recipes {
     display: block;
     text-decoration: none;
+    margin: 5px;
+    padding: 10px 8px;
+    display: inline;
+    justify-content: center;
 }
 
 .description {
     font-style: italic;
+    text-align: center;
+    border-bottom: 5px solid black;
 }
 
 img {
     border: 2px solid lightsalmon;
-    margin: auto 5px;
+    margin: 0 auto;
+    padding: 20px;
+
 }
+
+.img-container {
+    text-align: center;
+}
+
+.ingredients,
+.steps {
+    border: 5px dashed red;
+    display: inline-block;
+    width: 45%;
+    padding: 16px 8px;
+    margin: 0 2%;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.title {
+    text-align: center;
+}
+
+
+
