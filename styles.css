@@ -1,15 +1,46 @@
-* {
-    border: 2px solid red;
+.home {
+    background-color: rgba(203, 203, 65, 0.146);
+    height: 100vh;
 }
 
-.recipe {
-    
+.recipe-title {
+    text-align: center;
 }
 
 .ingredients {
-
+    
 }
 
 .steps {
 
+}
+
+.ingredients,
+.steps {
+    box-sizing: border-box;
+    width: 45%;
+    padding: 10px;
+    display: inline-block;
+}
+
+#lemon-risotto {
+    background-color: rgba(213, 213, 67, 0.372);
+}
+
+#carrot-cake {
+    background-color: rgba(189, 149, 75, 0.309);
+}
+
+#skewers {
+    background-color: rgba(228, 159, 119, 0.358);
+}
+
+h2 {
+    text-align: center;
+}
+
+.home > a {
+    display: block;
+    margin: 10px;
+    padding-left: 10px;
 }
