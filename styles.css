@@ -1,0 +1,12 @@
+* {
+    border: 2px solid red;
+}
+
+body {
+    font-family: cursive, sans-serif;
+    background-color: rgba(214, 204, 189, 0.958);
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
